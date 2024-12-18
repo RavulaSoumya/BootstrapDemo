@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    border: 12px solid black;
+    height: 90vh;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+} 
+.box{
+    height: 150px;
+    width: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: yellow;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: blue;
+}
